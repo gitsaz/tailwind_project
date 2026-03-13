@@ -23,3 +23,31 @@ h1,h2,h3{
     margin-left: auto;
     margin-right: auto;
 }
+
+#footer{
+    background-color: #111;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover{
+    color: #872BFF;
+}
+
+.footer-copy{
+    font-size: 14px;
+    color: #aaa;
+}
