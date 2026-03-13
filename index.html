@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind Project</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <header class="bg-[#fbecc0]">
+      <!-- navber section -->
+      <nav class="flex justify-between items-center container px-8 py-4">
+        <img src="images/logo.jpg" alt="" class="w-[225px] h-[31px]" />
+        <ul class="items-center gap-4 font-semibold hidden md:flex">
+          <li>home</li>
+          <li>contact</li>
+          <li>about us</li>
+        </ul>
+       
+        <span class="block md:hidden"> <i class="fa-solid fa-bars"></i></span>
+      </nav>
+
+      <!-- banner section -->
+      <section class="flex justify-between items-center gap-4 min-h-[80vh] container px-4">
+        <div>
+          <h2 class="text-[#fabe4c] text-[80px] md:leading-[58px] x1:leading-[25px] py-6">
+            your dream clotho
+          </h2>
+          <h2 class="text-[#363958] text-[38px]  ">For youe winter</h2>
+          <p class="pt-8 pb-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+
+          </p>
+          <button class="btn"> <i class="fa-solid fa-cart-shopping"></i> BUY NOW</button>
+        </div>
+        <img
+          src="images/logo.jpg"
+          alt=""
+          class="w-[300px] h-[300px] rounded-full"
+        />
+      </section>
+    </header>
+  </body>
+</html>

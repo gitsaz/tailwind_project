@@ -1,0 +1,25 @@
+*{
+    font-family: "roboto", sans-serif;
+}
+
+h1,h2,h3{
+    font-family: "bebas neue", sans-serif;
+}
+
+.btn{
+    background-color: #80ee71;
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 11px 31px 0 #8C8C8C;
+    font-weight: bold;
+    color: white;
+
+}
+
+.container{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
